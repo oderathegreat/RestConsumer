@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.valentishealth.app.restconsumer.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:onClick="pick_image"
+        android:src="@drawable/profile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <EditText
+        android:id="@+id/inputFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#2F2F30"
+        android:textColorHint="#626568"
+        android:inputType="textPersonName"
+        android:hint="First name"/>
+
+    <EditText
+        android:id="@+id/inputLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#2F2F30"
+        android:textColorHint="#626568"
+        android:inputType="textPersonName"
+        android:hint="Last name"/>
+
+    <EditText
+        android:id="@+id/inputIDNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#626568"
+        android:textColor="#2F2F30"
+        android:inputType="number"
+        android:hint="ID Number"/>
+
+    <EditText
+        android:id="@+id/inputPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#626568"
+        android:textColor="#2F2F30"
+        android:inputType="phone"
+        android:hint="Phone Number"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:background="@drawable/rounded_button"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+
+</LinearLayout>

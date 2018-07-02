@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context="com.valentishealth.app.restconsumer.SplashActivity">
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="136dp"
+        android:layout_marginEnd="29dp"
+        android:background="@drawable/rounded_button"
+        android:text="GET STARTED" />
+
+    <TextView
+        android:id="@+id/txtMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnStart"
+        android:layout_alignTop="@+id/btnStart"
+        android:layout_marginTop="75dp"
+        android:text="Already a member? SignIn"
+        android:textColor="#3A7EC1"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/btnStart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        app:srcCompat="@drawable/logo" />
+</RelativeLayout>
